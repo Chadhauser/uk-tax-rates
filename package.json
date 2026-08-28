@@ -1,0 +1,35 @@
+{
+  "name": "uk-tax-rates",
+  "version": "1.0.0",
+  "description": "Current UK and US tax rates, allowances and thresholds. Income tax, NI, dividends, CGT, corporation tax, IHT, VAT, stamp duty, student loans. 2026/27 figures, no dependencies.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
+  },
+  "files": ["index.js", "index.d.ts", "rates.json", "README.md", "LICENSE"],
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "uk", "tax", "tax-rates", "hmrc", "income-tax", "national-insurance",
+    "dividend-tax", "capital-gains", "corporation-tax", "inheritance-tax",
+    "vat", "stamp-duty", "student-loan", "payroll", "accounting", "finance",
+    "2026", "scotland"
+  ],
+  "author": "Peter Edwards ACMA CGMA (https://financeclearly.com)",
+  "license": "CC-BY-4.0",
+  "homepage": "https://financeclearly.com/tax-rates-api/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chadhauser/uk-tax-rates.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Chadhauser/uk-tax-rates/issues"
+  },
+  "engines": { "node": ">=14" },
+  "sideEffects": false
+}
